@@ -5,8 +5,8 @@ If the plane's position changes: pitch up/down or roll left/right, serial commun
 
 **Made in Unity 2019.2**
 
-![](legplane.gif)
+![](https://github.com/darrentran33/AC130Flight/blob/master/Screenshots/legoplane.gif)
 
-![](unityplane.gif)
+![](https://github.com/darrentran33/AC130Flight/blob/master/Screenshots/unityplane.gif)
 
 
