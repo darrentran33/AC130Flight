@@ -9,4 +9,8 @@ If the plane's position changes: pitch up/down or roll left/right, serial commun
 
 ![](https://github.com/darrentran33/AC130Flight/blob/master/Screenshots/unityplane.gif)
 
+# Download
+
+You can either clone the repository or [download the asset package] (https://github.com/darrentran33/AC130Flight/tree/master/Assets) located in the root.
+
 
