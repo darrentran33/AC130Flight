@@ -9,8 +9,18 @@ If the plane's position changes: pitch up/down or roll left/right, serial commun
 
 ![](https://github.com/darrentran33/AC130Flight/blob/master/Screenshots/unityplane.gif)
 
-# <h1> Download </h1>
+## Download 
 
 You can either clone the repository or [download the asset package](https://github.com/darrentran33/AC130Flight/tree/master/Assets) located in the root.
+
+## Controls
+
+The default game controls function around the arrows on a keyboard. The game is being developed to be compatible with an Oculus Quest.
+When the game package is downloaded and installed, the default controls will be used to control pitch and roll. Yaw can be controlled through a combination of the pitch and roll commands.
+
+  * Up arrow - Pitch up
+  * Down arrow -Pitch down
+  * Left arrow - Roll left
+  * Right arrow - Roll right
 
 
