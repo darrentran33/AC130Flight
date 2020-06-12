@@ -15,7 +15,7 @@ You can either clone the repository or [download the asset package](https://gith
 
 ### Software
 
- * CAD designs of the AC130J, flaps, and propellors was don in Autodesk Maya
+ * CAD designs of the AC130J, flaps, and propellors was done in Autodesk Maya
  * Unity Script was dones in Visual Studio
  * Script, Animations, and Gameobjects put together in **Unity 2019.2**
 
@@ -40,13 +40,19 @@ sp = new SerialPort("COM3", 9600, Parity.None, 8, StopBits.One);
 When the game is started, the serial port will be opened.
 
 ``` C#
-sp.open
+sp.open;
+```
+
+When the plane's position in respect to the pitch and roll axis is changed during the simulation, uUnity will send a message.
+
+``` C#
+sp.write(" Message ");
 ```
 
 When Unity is closed, the serial port will be closed.
 
 ``` C#
-sp.close
+sp.close;
 ```
 
 ## Arduino Simulation
@@ -61,5 +67,14 @@ sp.close
 ### Wiring The Motion Platform
 
 ### Arduino Communication with Unity
+
+When Unity sends a message to the Arduino it is read and the respective motor configuration will be performed.
+
+```C++
+if (Serial.available()){
+ sig = Serial.read();
+ }
+```
+
 
 
