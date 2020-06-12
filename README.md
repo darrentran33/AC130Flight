@@ -68,6 +68,7 @@ sp.close;
 
 <img src="https://github.com/darrentran33/AC130Flight/blob/master/Screenshots/Circuit%20Schmatic.JPG" width="400" height="300">
 
+The lone front servo motor will allow mimicing the nose while the back two servo motors will mimic the horizontal stabilizers. The PCA9685 motor dirver board communicates to the Arduino via an I2C connection.
 
 
 ### Arduino Communication with Unity
