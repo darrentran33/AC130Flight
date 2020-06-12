@@ -33,21 +33,21 @@ When the game package is downloaded and installed, the default controls will be 
 
 You will need to establish what port the Arduino is in as well as the Baud rate in which the computer will communicate with the Arduino.
 
-'''
+``` C#
 sp = new SerialPort("COM3", 9600, Parity.None, 8, StopBits.One);
-'''
+```
 
 When the game is started, the serial port will be opened.
 
-'''
+``` C#
 sp.open
-'''
+```
 
 When Unity is closed, the serial port will be closed.
 
-'''
+``` C#
 sp.close
-'''
+```
 
 ## Arduino Simulation
 
