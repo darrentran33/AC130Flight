@@ -66,6 +66,10 @@ sp.close;
 
 ### Wiring The Motion Platform
 
+<img src="https://github.com/darrentran33/AC130Flight/blob/master/Screenshots/Circuit%20Schmatic.JPG" width="400" height="300">
+
+
+
 ### Arduino Communication with Unity
 
 When Unity sends a message to the Arduino it is read and the respective motor configuration will be performed.
