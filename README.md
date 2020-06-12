@@ -32,14 +32,19 @@ When the game package is downloaded and installed, the default controls will be 
 ### Unity Communication with the Arduino
 
 You will need to establish what port the Arduino is in as well as the Baud rate in which the computer will communicate with the Arduino.
+
 '''
 sp = new SerialPort("COM3", 9600, Parity.None, 8, StopBits.One);
 '''
+
 When the game is started, the serial port will be opened.
+
 '''
 sp.open
 '''
+
 When Unity is closed, the serial port will be closed.
+
 '''
 sp.close
 '''
@@ -55,6 +60,6 @@ sp.close
 
 ### Wiring The Motion Platform
 
-## Arduino Communication with Unity
+### Arduino Communication with Unity
 
 
