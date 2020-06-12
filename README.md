@@ -43,7 +43,7 @@ When the game is started, the serial port will be opened.
 sp.open;
 ```
 
-When the plane's position in respect to the pitch and roll axis is changed during the simulation, uUnity will send a message.
+When the plane's position in respect to the pitch and roll axis is changed during the simulation, Unity will send a message.
 
 ``` C#
 sp.write(" Message ");
