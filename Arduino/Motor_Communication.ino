@@ -87,7 +87,7 @@ delay(20);
 
 
 int angleToPulse(int ang){
-   int pulse = map(ang,-90, 90, SERVOMIN,SERVOMAX);// map angle of 0 to 180 to Servo min and Servo max 
+   int pulse = map(ang,-90, 90, SERVOMIN,SERVOMAX);// map angle of -90 to 90 to Servo min and Servo max 
    Serial.print("Angle: ");Serial.print(ang);
    Serial.print(" pulse: ");Serial.println(pulse);
    return pulse;
