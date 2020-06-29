@@ -59,12 +59,14 @@ public class Flight : MonoBehaviour
         pitch = Input.GetAxis("Vertical") * (Time.deltaTime * RotationSpeed); 
         AddRot.eulerAngles = new Vector3(pitch, roll);
         plane.rotation *= AddRot;
+        // set pitch and roll angle
 
         transform.Rotate(pitch, 0.0f, roll);
 
         Vector3 AddPos = transform.position += transform.forward * Time.deltaTime * -1 * AmbientSpeed;
         AddPos = plane.rotation * AddPos;
         plane.velocity = AddPos * (Time.deltaTime * AmbientSpeed);
+        // how the airplane moves
 
         distance += Vector3.Distance(transform.position, lastposition);
 
@@ -75,6 +77,7 @@ public class Flight : MonoBehaviour
             transform.position = new Vector3(transform.position.x,
                 terraininstantheight, transform.position.z);
         }
+        //plane doesn't go into the terrain
 
         lastposition = transform.position;
         lastposition.x = Mathf.RoundToInt(gameObject.transform.position.x);
