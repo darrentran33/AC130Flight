@@ -21,7 +21,7 @@ void setup() {
   pwm.setPWM(4,0, angleToPulse(0));
 
   //yield();
-  //negative is up, positive down, base value of 30
+  //negative is up, positive down
 
  
 }
@@ -80,6 +80,7 @@ if (Serial.available()){
     
   }
 delay(20);
+  //tested value for no lag
 }
 
 }
