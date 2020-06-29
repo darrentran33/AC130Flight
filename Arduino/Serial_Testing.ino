@@ -27,21 +27,25 @@ if (Serial.available()){
 if (sig == 'C'){
   digitalWrite(LED1,HIGH); 
   digitalWrite(LED2,LOW);
+  //pitch up
 }
 
 if (sig == 'F'){
   digitalWrite(LED2,HIGH);
   digitalWrite(LED1,LOW); 
+  //pitch down
 }
 
 if (sig == 'G'){
   digitalWrite(LED3,HIGH);
   digitalWrite(LED4,LOW);
+  //roll left
 }
 
 if (sig == 'H'){
   digitalWrite(LED4,HIGH);
   digitalWrite(LED3,LOW);
+  //roll right
 }
 
 delay(20);
